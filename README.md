@@ -1,0 +1,2 @@
+# Karakterberegning
+ Javascript øvelse
