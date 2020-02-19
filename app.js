@@ -15,7 +15,6 @@ document.addEventListener('keypress', function(event){
     }
 });
 
-
 // Switch for at tjekke procenter 
 function brn(procent) {
     switch (true) {
