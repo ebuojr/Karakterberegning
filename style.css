@@ -1,0 +1,90 @@
+.body {
+    background-color: #F2F2F2;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    padding-top: 150px;
+    position: relative;
+}
+
+.hero-section {
+    width: 60%;
+    border-radius: 5px;
+    position: relative;
+}
+
+.k-heading {
+    font-weight: 800;
+    margin-bottom: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.procent-field {
+    background-color:#F2F2F2 ;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 2rem;
+    color:black;
+    margin-bottom: 40px;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    font-family: monospace;
+    padding: 16px 0 16px;
+}   
+.procent-field::placeholder {
+    font-size: 1.2rem;
+    font-weight: 200px;
+    color: black;
+    opacity: 20%;
+    font-weight: 200;
+}
+
+.procent-field:focus {
+    outline: none;
+}
+.karakter-field {
+    width: 100%;
+}
+
+.karakter-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 10px;
+    opacity: 100%;
+    width: 100%;
+}
+
+.karakter-heading {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 40px;
+    padding: 16px;
+    margin: auto;
+}
+
+.button {
+    background-color: black;
+    border: 0;
+    border-radius: 3px;
+    border-top: 3px solid gold;
+    color: #F2F2F2;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.footer {
+    position: absolute;
+    top: 110%;
+    
+}
